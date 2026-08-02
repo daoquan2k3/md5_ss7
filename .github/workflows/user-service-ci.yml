@@ -18,6 +18,7 @@ jobs:
 
       - name: Build Jar
         run: |
+          cd user-service
           chmod +x ./gradlew
           ./gradlew bootJar
 
@@ -25,5 +26,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: user-service-artifact
-          path: build/libs/*.jar
+          path: user-service/build/libs/*.jar
           retention-days: 3
