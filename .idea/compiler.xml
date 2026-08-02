@@ -11,6 +11,9 @@
       <module name="payment-service" options="-parameters" />
       <module name="payment-service.main" options="-parameters" />
       <module name="payment-service.test" options="-parameters" />
+      <module name="restaurant-service" options="-parameters" />
+      <module name="restaurant-service.main" options="-parameters" />
+      <module name="restaurant-service.test" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="user-service.main" options="-parameters" />
       <module name="user-service.test" options="-parameters" />
