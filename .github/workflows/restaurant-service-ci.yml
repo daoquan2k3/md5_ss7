@@ -16,6 +16,6 @@ jobs:
 
       - name: Build with Gradle
         run: |
-          cd restaurant-service 
+          cd restaurant-service
           chmod +x ./gradlew
           ./gradlew bootJar
